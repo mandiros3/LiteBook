@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Select Feed or Chat :"
+        android:text="LiteBook"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:elevation="2dp"
         android:text="Chat" />
 
     <Button
@@ -33,5 +34,8 @@
         android:layout_alignLeft="@+id/chatButton"
         android:layout_alignStart="@+id/chatButton"
         android:layout_marginBottom="47dp"
-        android:text="View Feed" />
+        android:elevation="2dp"
+        android:text="View Feed"
+
+        />
 </RelativeLayout>
