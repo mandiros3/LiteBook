@@ -8,7 +8,11 @@
         android:id="@+id/feedView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentStart="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="#ff5995ff" />
+        android:layout_margin="5px"
+        android:background="#ffd3d3d3"
+        android:paddingLeft="15px"
+        android:paddingRight="15px" />
 </RelativeLayout>

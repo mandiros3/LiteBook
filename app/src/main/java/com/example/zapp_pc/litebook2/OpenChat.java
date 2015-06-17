@@ -20,6 +20,10 @@ public class OpenChat extends Activity {
         chat.loadUrl("http://www.messenger.com");
         WebSettings webSettings = chat.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+
+        //testing the user agent to load messenger
+        chat.getSettings().setUserAgentString("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36");
     }
 
 
